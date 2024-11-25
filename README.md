@@ -32,19 +32,33 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+```
+module funct1(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
 
+```
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by:Janathul Firdhous
+RegisterNumber:24900115
+
 
 
 **RTL realization**
 
+![Screenshot (43)](https://github.com/user-attachments/assets/bc7e1ad6-13c8-476f-9b28-1d0af8b41c87)
+
+
 **Output:**
 
-**RTL**
 
 **Timing Diagram**
+
+![Screenshot 2024-11-25 203846](https://github.com/user-attachments/assets/eca09aa3-ba97-4f5d-9b40-6521d07aea76)
+
 
 **Result:**
 
